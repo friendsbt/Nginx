@@ -1,0 +1,9 @@
+.ropeproject/
+.Python
+bin/
+dump.rdb
+include/
+lib/
+nglib/*
+
+!nglib/*.tar.gz
