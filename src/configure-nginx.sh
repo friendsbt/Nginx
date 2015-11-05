@@ -1,1 +1,29 @@
-./configure --sbin-path=/usr/local/sbin --add-module='../nginx-eval-module-2014.05.09' --add-module='../ngx_http_redis-0.3.7' --add-module='../echo-nginx-module-0.57' --with-cc-opt="-Wno-deprecated-declarations"
+./configure --sbin-path=/usr/local/sbin \
+--add-module='../nginx-eval-module-2014.05.09' \
+--add-module='../ngx_http_redis-0.3.7' \
+--add-module='../echo-nginx-module-0.57' \
+--with-cc-opt="-Wno-deprecated-declarations" \
+--with-file-aio \
+--with-ipv6 \
+--with-http_ssl_module \
+--with-http_realip_module \
+--with-http_addition_module \
+--with-http_xslt_module \
+--with-http_image_filter_module \
+--with-http_geoip_module \
+--with-http_sub_module \
+--with-http_dav_module \
+--with-http_flv_module \
+--with-http_mp4_module \
+--with-http_gunzip_module \
+--with-http_gzip_static_module \
+--with-http_random_index_module \
+--with-http_secure_link_module \
+--with-http_degradation_module \
+--with-http_stub_status_module \
+--with-http_perl_module \
+--with-mail \
+--with-mail_ssl_module \
+--with-pcre \
+--with-debug \
+--with-http_v2_module
